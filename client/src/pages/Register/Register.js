@@ -161,7 +161,7 @@ function setSuccessFor(inputElement){
     const data = await response.json()
 
     if(data.status === "ok"){
-      navigate("/login")
+      navigate("/")
     }
     if(data.status === "error"){
       setErrorFor(userphone,data.error)
@@ -169,7 +169,7 @@ function setSuccessFor(inputElement){
   }
 
   const goToLogin = function(){
-    window.location.href="/login"
+    window.location.href="/"
 
   }
 
