@@ -1,21 +1,26 @@
 # Login-App
 Install node.js in your machine to run client and server
 
+you can put the client and server folder where ever you want 
 
-# For running Client Side App
-First import node modules folder (make sure network connected)
+
+# For running Client Side App 
+
+First go to the path via cmd, for import node modules folder (make sure network connected)
 
 $npm init
 
-Go to the path then put the command as npm start it runs the react app 
+To run the React App 
 
 $npm start
 
+it start on http://localhost:3000/login
+
 # For running Node Server
-First import node module folder
+First go to the path via cmd(another one), for import node module folder (make sure network connected)
 
 $npm init
 
-In another cmd go to the path then put the command it run the nodemon for refresh the server then you can access
+To run the nodemon for refresh the server and Run the Server
 
 $npm run dev
