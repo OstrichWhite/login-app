@@ -18,7 +18,7 @@ const Profile = ()=>{
             getTokenData()
         }
         else{
-            navigate("/login")
+            navigate("/")
         }
     })
 
@@ -41,7 +41,7 @@ const Profile = ()=>{
         }
         if(data.status === "error"){
             alert("Invalid Token")
-            navigate("/login")
+            navigate("/")
         }
     }
 
@@ -59,7 +59,7 @@ const Profile = ()=>{
 
      const logOut = function(){
         localStorage.removeItem("token")
-        window.location.href="/login"
+        window.location.href="/"
     
       }
     
