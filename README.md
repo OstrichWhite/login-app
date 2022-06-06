@@ -6,7 +6,7 @@ you can put the client and server folder where ever you want
 
 # For running Client Side App 
 
-First go to the path via cmd, for import node modules folder (make sure network connected)
+First go to the path via cmd, for import node_modules folder (make sure network connected)
 
 $npm init
 
@@ -17,10 +17,12 @@ $npm start
 it start on http://localhost:3000/login
 
 # For running Node Server
-First go to the path via cmd(another one), for import node module folder (make sure network connected)
+First go to the path via cmd(another one), for import node_modules folder (make sure network connected)
 
 $npm init
 
-To run the nodemon for refresh the server and Run the Server
+To Run the Server
 
 $npm run dev
+
+Ultimately it run the nodemon on your local machine and the server wait for your request to process it
